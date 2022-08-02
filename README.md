@@ -70,7 +70,7 @@ Inside the Main class (Main.hx), you need to make a new variable called toastMan
 public static var gjToastManager:GJToastManager;
 ```
 
-Inside the setupGame function in the Main class, you will need to create the toastManager.
+Inside the setupGame function in the Main class, **below the function to add the FlxGame**, you will need to create the toastManager.
 ```haxe
 gjToastManager = new GJToastManager();
 addChild(gjToastManager);
